@@ -13,7 +13,6 @@ This tutorial will detail the workings of an email verification regex expression
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Author](#author)
 
