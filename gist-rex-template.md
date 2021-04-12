@@ -12,24 +12,24 @@ This tutorial will detail the workings of an email verification regex expression
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
-- [Author] (#author)
+- [Author](#author)
 
 ## Regex Components
 
 ### Anchors
+
+```
 Anchors are the opening and closing strings of a regex expression. The opening anchor includes a caret, ` ^ `. The closing anchor includes the dollar symbol, ` $ `.
 
 /^([a-z0-9_\.-]+)@([\da-z\.-]+).([a-z\.]{2,6})$/
 
 For the regex email verification , the opening anchor is `/^` and the closing anchor is `$\`. 
-
+```
 
 ### Quantifiers
-
+```
 Quantifiers are expressions that come directly to the left of a particular quantity of the character, token or subexpression. 
 
 * quantifier allows for the engine to match 0 or more characters
@@ -42,10 +42,10 @@ Quantifiers are expressions that come directly to the left of a particular quant
 In the regex email verification, the `{2,6}` sets the minimum charcters allowed after the `.com` to be 2 and the maximum characters  allowed to be 6. 
 
 Another example is the `+` which is added after the first set of `[]` which is the first word of the email address and the second set of `[]` which is the  second word of the email address. This shows that the search engine searches for one or more characters. 
-
+```
 
 ### Character Classes
-
+```
 Character Classes inform the search engine what characters are allowed in the expression. These classes are included within `[]`. 
 
 An example of this is the different way to spell something. There are two ways to spell adapter or adaptor. To write a class to allow the search engine to search for either- the express would denote this as such adapt[eo]r.
@@ -73,9 +73,9 @@ The character class will search for:
 any letter a-z (lowercase or uppercase) `a-z`,
 and a period `\.`.
 
-
+```
 ### Grouping and Capturing
-
+```
 Grouping allows for a search of characters within their own particular group. 
 Capturing allows for a serach of all the characters in a particular group. 
 
@@ -122,10 +122,10 @@ This will capture the domain name
 Group 3: 
 This will caputre the extension
 ([a-z\.]{2,6})
-
+```
 ## Author
 
-
+```
 
 Brittany's contacts:
 
@@ -135,7 +135,7 @@ Github: (https://github.com/blee2013)
 
 LinkedIn: (https://www.linkedin.com/in//brittany-lee-6142121b8/)
 
-
+```
 
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
