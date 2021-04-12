@@ -16,7 +16,7 @@ This tutorial will detail the workings of an email verification regex expression
 - [Character Classes](#character-classes)
 - [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
-- [Author] (#author)
+- [Author](#author)
 
 ## Regex Components
 
