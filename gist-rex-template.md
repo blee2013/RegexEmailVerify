@@ -136,6 +136,3 @@ Github: (https://github.com/blee2013)
 LinkedIn: (https://www.linkedin.com/in//brittany-lee-6142121b8/)
 
 ```
-
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
